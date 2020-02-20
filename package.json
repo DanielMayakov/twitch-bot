@@ -1,0 +1,22 @@
+{
+  "name": "twitch-bot",
+  "version": "0.0.1",
+  "description": "",
+  "main": "src/bot.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node src/bot.js"
+  },
+  "author": "EddyRock",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.6.2",
+    "@babel/node": "^7.6.2",
+    "@babel/preset-env": "^7.6.2",
+    "config": "^3.0.1",
+    "nodemon": "^1.19.2",
+    "tmi.js": "^1.4.2"
+  },
+  "devDependencies": {
+    "custom-env": "^1.0.2"
+  }
+}
