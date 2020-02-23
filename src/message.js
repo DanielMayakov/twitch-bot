@@ -3,7 +3,9 @@ function message_test (target, context, msg, self, client) {
     const commandName = msg.trim();
 
     if (commandName === '!test') {
-        client.say(target, 'оно тупо робить');
+        let answer = 'оно тупо робить';
+        client.say(target, answer);
+        log_test (commandName, msg);
     }
   }
 
